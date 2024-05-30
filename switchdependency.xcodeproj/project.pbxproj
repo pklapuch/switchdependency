@@ -11,6 +11,13 @@
 		35E833EB2C07B4790008D4A8 /* ManifestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833EA2C07B4790008D4A8 /* ManifestFile.swift */; };
 		35E833ED2C07B4A20008D4A8 /* RemoteDependencyLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833EC2C07B4A20008D4A8 /* RemoteDependencyLine.swift */; };
 		35E833EF2C07B4EC0008D4A8 /* Manifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833EE2C07B4EC0008D4A8 /* Manifests.swift */; };
+		35E833F32C08CA550008D4A8 /* SwitchDependencyUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833F22C08CA550008D4A8 /* SwitchDependencyUseCase.swift */; };
+		35E833F52C08CAA50008D4A8 /* CommandArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833F42C08CAA50008D4A8 /* CommandArguments.swift */; };
+		35E833F72C08CCED0008D4A8 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833F62C08CCED0008D4A8 /* Operation.swift */; };
+		35E833F92C08CE780008D4A8 /* DependencyVersionsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833F82C08CE780008D4A8 /* DependencyVersionsUseCase.swift */; };
+		35E833FD2C08DD0E0008D4A8 /* ShellProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833FC2C08DD0E0008D4A8 /* ShellProcess.swift */; };
+		35E833FF2C08DE280008D4A8 /* CommonRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833FE2C08DE280008D4A8 /* CommonRegex.swift */; };
+		35E834012C08DE870008D4A8 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E834002C08DE870008D4A8 /* String+Regex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +38,13 @@
 		35E833EA2C07B4790008D4A8 /* ManifestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestFile.swift; sourceTree = "<group>"; };
 		35E833EC2C07B4A20008D4A8 /* RemoteDependencyLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDependencyLine.swift; sourceTree = "<group>"; };
 		35E833EE2C07B4EC0008D4A8 /* Manifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manifests.swift; sourceTree = "<group>"; };
+		35E833F22C08CA550008D4A8 /* SwitchDependencyUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchDependencyUseCase.swift; sourceTree = "<group>"; };
+		35E833F42C08CAA50008D4A8 /* CommandArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandArguments.swift; sourceTree = "<group>"; };
+		35E833F62C08CCED0008D4A8 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		35E833F82C08CE780008D4A8 /* DependencyVersionsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyVersionsUseCase.swift; sourceTree = "<group>"; };
+		35E833FC2C08DD0E0008D4A8 /* ShellProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellProcess.swift; sourceTree = "<group>"; };
+		35E833FE2C08DE280008D4A8 /* CommonRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonRegex.swift; sourceTree = "<group>"; };
+		35E834002C08DE870008D4A8 /* String+Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,13 @@
 				35E833EA2C07B4790008D4A8 /* ManifestFile.swift */,
 				35E833EC2C07B4A20008D4A8 /* RemoteDependencyLine.swift */,
 				35E833EE2C07B4EC0008D4A8 /* Manifests.swift */,
+				35E833F22C08CA550008D4A8 /* SwitchDependencyUseCase.swift */,
+				35E833F42C08CAA50008D4A8 /* CommandArguments.swift */,
+				35E833F62C08CCED0008D4A8 /* Operation.swift */,
+				35E833F82C08CE780008D4A8 /* DependencyVersionsUseCase.swift */,
+				35E833FC2C08DD0E0008D4A8 /* ShellProcess.swift */,
+				35E833FE2C08DE280008D4A8 /* CommonRegex.swift */,
+				35E834002C08DE870008D4A8 /* String+Regex.swift */,
 			);
 			path = switchdependency;
 			sourceTree = "<group>";
@@ -129,8 +150,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E833F52C08CAA50008D4A8 /* CommandArguments.swift in Sources */,
 				35E833EF2C07B4EC0008D4A8 /* Manifests.swift in Sources */,
+				35E834012C08DE870008D4A8 /* String+Regex.swift in Sources */,
+				35E833FD2C08DD0E0008D4A8 /* ShellProcess.swift in Sources */,
+				35E833F72C08CCED0008D4A8 /* Operation.swift in Sources */,
+				35E833F92C08CE780008D4A8 /* DependencyVersionsUseCase.swift in Sources */,
 				35E833EB2C07B4790008D4A8 /* ManifestFile.swift in Sources */,
+				35E833FF2C08DE280008D4A8 /* CommonRegex.swift in Sources */,
+				35E833F32C08CA550008D4A8 /* SwitchDependencyUseCase.swift in Sources */,
 				3533424E2C06353300ABCBE1 /* main.swift in Sources */,
 				35E833ED2C07B4A20008D4A8 /* RemoteDependencyLine.swift in Sources */,
 			);
