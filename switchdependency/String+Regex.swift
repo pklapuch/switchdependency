@@ -12,4 +12,16 @@ extension String {
             throw NSError(domain: "", code: 1)
         }
     }
+
+    func replacingFirstMatchingRegexWithSubstring(
+        regex: Regex<Regex<Substring>.RegexOutput>,
+        with substring: String
+    ) throws -> String {
+        if let match = firstMatch(of: regex) {
+            let range = match.range.lowerBound..<match.range.upperBound
+            return replacingCharacters(in: range, with: substring)
+        } else {
+            throw NSError(domain: "", code: 1)
+        }
+    }
 }

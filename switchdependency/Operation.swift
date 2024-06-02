@@ -3,7 +3,8 @@ import Foundation
 enum Operation: String {
     case local = "local"
     case remote = "remote"
-    case fetchVersions = "fetchVersions"
+    case checkVersions = "checkVersions"
+    case updateVersions = "updateVersions"
 
     init(rawValue: String) throws {
         guard let operation = Operation(rawValue: rawValue) else {

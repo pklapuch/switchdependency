@@ -14,13 +14,26 @@ try start(arguments: CommandLine.asCommandArguments)
 func start(arguments: CommandArguments) throws {
     let operation = try arguments.extractOperation()
     let rootURL = arguments.resolveRootURL()
+    let remoteBaseURL = URL(string: "git@ssh.dev.azure.com:v3/FMXA/Mobile")!
+
+    let switchDependencyUseCase = SwitchDependencyUseCase(
+        rootURL: rootURL,
+        remoteBaseURL: remoteBaseURL
+    )
+
+    let dependencyVersionUseCase = DependencyVersionsUseCase(
+        rootURL: rootURL,
+        remoteBaseURL: remoteBaseURL
+    )
 
     switch operation {
     case .local:
-        try SwitchDependencyUseCase(rootURL: rootURL).apply(mode: "local")
+        try switchDependencyUseCase.switchToLocal()
     case .remote:
-        try SwitchDependencyUseCase(rootURL: rootURL).apply(mode: "remote")
-    case .fetchVersions:
-        try DependencyVersionsUseCase(rootURL: rootURL).execute()
+        try switchDependencyUseCase.switchToRemote()
+    case .checkVersions:
+        try dependencyVersionUseCase.checkForLatestVersions()
+    case .updateVersions:
+        try dependencyVersionUseCase.updateToLatestVersions()
     }
 }

@@ -24,10 +24,7 @@ struct ShellProcess {
         return output
     }
 
-    private static var invalidOutputError: NSError {
-        NSError(
-            domain: "SwitchDependencyError",
-            code: 1,
-            userInfo: ["reason": "Cannot read shell output"])
+    private static var invalidOutputError: Error {
+        ExecutionError.make("Cannot read shell output")
     }
 }

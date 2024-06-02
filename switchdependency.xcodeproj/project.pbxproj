@@ -8,9 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		3533424E2C06353300ABCBE1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3533424D2C06353300ABCBE1 /* main.swift */; };
-		35E833EB2C07B4790008D4A8 /* ManifestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833EA2C07B4790008D4A8 /* ManifestFile.swift */; };
-		35E833ED2C07B4A20008D4A8 /* RemoteDependencyLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833EC2C07B4A20008D4A8 /* RemoteDependencyLine.swift */; };
-		35E833EF2C07B4EC0008D4A8 /* Manifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833EE2C07B4EC0008D4A8 /* Manifests.swift */; };
+		3534B54C2C0A114A00BFDFA6 /* ExecutionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B54B2C0A114A00BFDFA6 /* ExecutionError.swift */; };
+		3534B54E2C0A130A00BFDFA6 /* RawTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B54D2C0A130A00BFDFA6 /* RawTag.swift */; };
+		3534B5502C0B7D7000BFDFA6 /* DependencyTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B54F2C0B7D7000BFDFA6 /* DependencyTag.swift */; };
+		3534B5552C0BBDDD00BFDFA6 /* ManifestContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5542C0BBDDD00BFDFA6 /* ManifestContent.swift */; };
+		3534B5572C0BBDF300BFDFA6 /* ManifestMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5562C0BBDF300BFDFA6 /* ManifestMeta.swift */; };
+		3534B5592C0BBE2D00BFDFA6 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5582C0BBE2D00BFDFA6 /* Line.swift */; };
+		3534B55D2C0BBE7400BFDFA6 /* PackageConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B55C2C0BBE7400BFDFA6 /* PackageConfig.swift */; };
+		3534B5612C0BBEA100BFDFA6 /* RemoteDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5602C0BBEA100BFDFA6 /* RemoteDependency.swift */; };
+		3534B5632C0BBEB500BFDFA6 /* ManifestsMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5622C0BBEB500BFDFA6 /* ManifestsMeta.swift */; };
+		3534B5652C0BBECB00BFDFA6 /* PackageConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5642C0BBECB00BFDFA6 /* PackageConfigs.swift */; };
+		3534B5672C0BC02000BFDFA6 /* ManifestUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5662C0BC02000BFDFA6 /* ManifestUtility.swift */; };
+		3534B56C2C0BE0FA00BFDFA6 /* RemotePackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B56B2C0BE0FA00BFDFA6 /* RemotePackage.swift */; };
+		3534B5742C0BE91100BFDFA6 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5732C0BE91100BFDFA6 /* Tests.swift */; };
+		3534B5792C0BEA1F00BFDFA6 /* DependencyLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5782C0BEA1F00BFDFA6 /* DependencyLine.swift */; };
+		3534B57A2C0BEA2D00BFDFA6 /* DependencyLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5782C0BEA1F00BFDFA6 /* DependencyLine.swift */; };
+		3534B57B2C0BEA3900BFDFA6 /* DependencyTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B54F2C0B7D7000BFDFA6 /* DependencyTag.swift */; };
+		3534B57C2C0BEA4200BFDFA6 /* ExecutionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B54B2C0A114A00BFDFA6 /* ExecutionError.swift */; };
+		3534B57D2C0BEF1A00BFDFA6 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E834002C08DE870008D4A8 /* String+Regex.swift */; };
+		3534B57E2C0BEF2700BFDFA6 /* CommonRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833FE2C08DE280008D4A8 /* CommonRegex.swift */; };
+		3534B5812C0BF1C200BFDFA6 /* DependencyLineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5802C0BF1C200BFDFA6 /* DependencyLineConfig.swift */; };
+		3534B5822C0BF1DF00BFDFA6 /* DependencyLineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5802C0BF1C200BFDFA6 /* DependencyLineConfig.swift */; };
+		3534B5842C0BF1F300BFDFA6 /* RemoteDependencyLineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5832C0BF1F300BFDFA6 /* RemoteDependencyLineConfig.swift */; };
+		3534B5852C0BF20300BFDFA6 /* RemoteDependencyLineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5832C0BF1F300BFDFA6 /* RemoteDependencyLineConfig.swift */; };
+		3534B5872C0BF20E00BFDFA6 /* LocalDependencyLineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5862C0BF20E00BFDFA6 /* LocalDependencyLineConfig.swift */; };
+		3534B5882C0BF22800BFDFA6 /* LocalDependencyLineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B5862C0BF20E00BFDFA6 /* LocalDependencyLineConfig.swift */; };
+		3534B58B2C0BF8B400BFDFA6 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B58A2C0BF8B400BFDFA6 /* State.swift */; };
+		3534B58D2C0CD2B800BFDFA6 /* ManifestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B58C2C0CD2B800BFDFA6 /* ManifestLoader.swift */; };
+		3534B58F2C0CD32600BFDFA6 /* RemoteTagLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3534B58E2C0CD32600BFDFA6 /* RemoteTagLoader.swift */; };
 		35E833F32C08CA550008D4A8 /* SwitchDependencyUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833F22C08CA550008D4A8 /* SwitchDependencyUseCase.swift */; };
 		35E833F52C08CAA50008D4A8 /* CommandArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833F42C08CAA50008D4A8 /* CommandArguments.swift */; };
 		35E833F72C08CCED0008D4A8 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E833F62C08CCED0008D4A8 /* Operation.swift */; };
@@ -35,9 +60,27 @@
 /* Begin PBXFileReference section */
 		3533424A2C06353300ABCBE1 /* switchdependency */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = switchdependency; sourceTree = BUILT_PRODUCTS_DIR; };
 		3533424D2C06353300ABCBE1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		35E833EA2C07B4790008D4A8 /* ManifestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestFile.swift; sourceTree = "<group>"; };
-		35E833EC2C07B4A20008D4A8 /* RemoteDependencyLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDependencyLine.swift; sourceTree = "<group>"; };
-		35E833EE2C07B4EC0008D4A8 /* Manifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manifests.swift; sourceTree = "<group>"; };
+		3534B54B2C0A114A00BFDFA6 /* ExecutionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionError.swift; sourceTree = "<group>"; };
+		3534B54D2C0A130A00BFDFA6 /* RawTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawTag.swift; sourceTree = "<group>"; };
+		3534B54F2C0B7D7000BFDFA6 /* DependencyTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyTag.swift; sourceTree = "<group>"; };
+		3534B5542C0BBDDD00BFDFA6 /* ManifestContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestContent.swift; sourceTree = "<group>"; };
+		3534B5562C0BBDF300BFDFA6 /* ManifestMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestMeta.swift; sourceTree = "<group>"; };
+		3534B5582C0BBE2D00BFDFA6 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		3534B55C2C0BBE7400BFDFA6 /* PackageConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageConfig.swift; sourceTree = "<group>"; };
+		3534B5602C0BBEA100BFDFA6 /* RemoteDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDependency.swift; sourceTree = "<group>"; };
+		3534B5622C0BBEB500BFDFA6 /* ManifestsMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestsMeta.swift; sourceTree = "<group>"; };
+		3534B5642C0BBECB00BFDFA6 /* PackageConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageConfigs.swift; sourceTree = "<group>"; };
+		3534B5662C0BC02000BFDFA6 /* ManifestUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestUtility.swift; sourceTree = "<group>"; };
+		3534B56B2C0BE0FA00BFDFA6 /* RemotePackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePackage.swift; sourceTree = "<group>"; };
+		3534B5712C0BE91100BFDFA6 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3534B5732C0BE91100BFDFA6 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		3534B5782C0BEA1F00BFDFA6 /* DependencyLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyLine.swift; sourceTree = "<group>"; };
+		3534B5802C0BF1C200BFDFA6 /* DependencyLineConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyLineConfig.swift; sourceTree = "<group>"; };
+		3534B5832C0BF1F300BFDFA6 /* RemoteDependencyLineConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDependencyLineConfig.swift; sourceTree = "<group>"; };
+		3534B5862C0BF20E00BFDFA6 /* LocalDependencyLineConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDependencyLineConfig.swift; sourceTree = "<group>"; };
+		3534B58A2C0BF8B400BFDFA6 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		3534B58C2C0CD2B800BFDFA6 /* ManifestLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManifestLoader.swift; sourceTree = "<group>"; };
+		3534B58E2C0CD32600BFDFA6 /* RemoteTagLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteTagLoader.swift; sourceTree = "<group>"; };
 		35E833F22C08CA550008D4A8 /* SwitchDependencyUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchDependencyUseCase.swift; sourceTree = "<group>"; };
 		35E833F42C08CAA50008D4A8 /* CommandArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandArguments.swift; sourceTree = "<group>"; };
 		35E833F62C08CCED0008D4A8 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
@@ -55,6 +98,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3534B56E2C0BE91100BFDFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				3533424C2C06353300ABCBE1 /* switchdependency */,
+				3534B5722C0BE91100BFDFA6 /* Tests */,
 				3533424B2C06353300ABCBE1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				3533424A2C06353300ABCBE1 /* switchdependency */,
+				3534B5712C0BE91100BFDFA6 /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,19 +129,83 @@
 		3533424C2C06353300ABCBE1 /* switchdependency */ = {
 			isa = PBXGroup;
 			children = (
+				3534B5932C0CDB7B00BFDFA6 /* UseCase */,
+				3534B5892C0BF8AC00BFDFA6 /* State */,
+				3534B57F2C0BF1AD00BFDFA6 /* Line */,
+				3534B5682C0BC44200BFDFA6 /* Tag */,
+				3534B5512C0BBDBC00BFDFA6 /* Manifest */,
 				3533424D2C06353300ABCBE1 /* main.swift */,
-				35E833EA2C07B4790008D4A8 /* ManifestFile.swift */,
-				35E833EC2C07B4A20008D4A8 /* RemoteDependencyLine.swift */,
-				35E833EE2C07B4EC0008D4A8 /* Manifests.swift */,
-				35E833F22C08CA550008D4A8 /* SwitchDependencyUseCase.swift */,
 				35E833F42C08CAA50008D4A8 /* CommandArguments.swift */,
 				35E833F62C08CCED0008D4A8 /* Operation.swift */,
-				35E833F82C08CE780008D4A8 /* DependencyVersionsUseCase.swift */,
 				35E833FC2C08DD0E0008D4A8 /* ShellProcess.swift */,
 				35E833FE2C08DE280008D4A8 /* CommonRegex.swift */,
 				35E834002C08DE870008D4A8 /* String+Regex.swift */,
+				3534B54B2C0A114A00BFDFA6 /* ExecutionError.swift */,
 			);
 			path = switchdependency;
+			sourceTree = "<group>";
+		};
+		3534B5512C0BBDBC00BFDFA6 /* Manifest */ = {
+			isa = PBXGroup;
+			children = (
+				3534B5542C0BBDDD00BFDFA6 /* ManifestContent.swift */,
+				3534B5562C0BBDF300BFDFA6 /* ManifestMeta.swift */,
+				3534B5582C0BBE2D00BFDFA6 /* Line.swift */,
+				3534B55C2C0BBE7400BFDFA6 /* PackageConfig.swift */,
+				3534B5602C0BBEA100BFDFA6 /* RemoteDependency.swift */,
+				3534B5622C0BBEB500BFDFA6 /* ManifestsMeta.swift */,
+				3534B5642C0BBECB00BFDFA6 /* PackageConfigs.swift */,
+				3534B5662C0BC02000BFDFA6 /* ManifestUtility.swift */,
+				3534B56B2C0BE0FA00BFDFA6 /* RemotePackage.swift */,
+				3534B58C2C0CD2B800BFDFA6 /* ManifestLoader.swift */,
+			);
+			path = Manifest;
+			sourceTree = "<group>";
+		};
+		3534B5682C0BC44200BFDFA6 /* Tag */ = {
+			isa = PBXGroup;
+			children = (
+				3534B54D2C0A130A00BFDFA6 /* RawTag.swift */,
+				3534B54F2C0B7D7000BFDFA6 /* DependencyTag.swift */,
+				3534B58E2C0CD32600BFDFA6 /* RemoteTagLoader.swift */,
+			);
+			path = Tag;
+			sourceTree = "<group>";
+		};
+		3534B5722C0BE91100BFDFA6 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3534B5732C0BE91100BFDFA6 /* Tests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3534B57F2C0BF1AD00BFDFA6 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				3534B5782C0BEA1F00BFDFA6 /* DependencyLine.swift */,
+				3534B5802C0BF1C200BFDFA6 /* DependencyLineConfig.swift */,
+				3534B5832C0BF1F300BFDFA6 /* RemoteDependencyLineConfig.swift */,
+				3534B5862C0BF20E00BFDFA6 /* LocalDependencyLineConfig.swift */,
+			);
+			path = Line;
+			sourceTree = "<group>";
+		};
+		3534B5892C0BF8AC00BFDFA6 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				3534B58A2C0BF8B400BFDFA6 /* State.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		3534B5932C0CDB7B00BFDFA6 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				35E833F22C08CA550008D4A8 /* SwitchDependencyUseCase.swift */,
+				35E833F82C08CE780008D4A8 /* DependencyVersionsUseCase.swift */,
+			);
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +228,23 @@
 			productReference = 3533424A2C06353300ABCBE1 /* switchdependency */;
 			productType = "com.apple.product-type.tool";
 		};
+		3534B5702C0BE91100BFDFA6 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3534B5752C0BE91100BFDFA6 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				3534B56D2C0BE91100BFDFA6 /* Sources */,
+				3534B56E2C0BE91100BFDFA6 /* Frameworks */,
+				3534B56F2C0BE91100BFDFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 3534B5712C0BE91100BFDFA6 /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -123,6 +256,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					353342492C06353300ABCBE1 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3534B5702C0BE91100BFDFA6 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -141,9 +277,20 @@
 			projectRoot = "";
 			targets = (
 				353342492C06353300ABCBE1 /* switchdependency */,
+				3534B5702C0BE91100BFDFA6 /* Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3534B56F2C0BE91100BFDFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		353342462C06353300ABCBE1 /* Sources */ = {
@@ -151,16 +298,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				35E833F52C08CAA50008D4A8 /* CommandArguments.swift in Sources */,
-				35E833EF2C07B4EC0008D4A8 /* Manifests.swift in Sources */,
+				3534B56C2C0BE0FA00BFDFA6 /* RemotePackage.swift in Sources */,
+				3534B5842C0BF1F300BFDFA6 /* RemoteDependencyLineConfig.swift in Sources */,
+				3534B5552C0BBDDD00BFDFA6 /* ManifestContent.swift in Sources */,
+				3534B5572C0BBDF300BFDFA6 /* ManifestMeta.swift in Sources */,
 				35E834012C08DE870008D4A8 /* String+Regex.swift in Sources */,
+				3534B58B2C0BF8B400BFDFA6 /* State.swift in Sources */,
 				35E833FD2C08DD0E0008D4A8 /* ShellProcess.swift in Sources */,
+				3534B5592C0BBE2D00BFDFA6 /* Line.swift in Sources */,
+				3534B54E2C0A130A00BFDFA6 /* RawTag.swift in Sources */,
 				35E833F72C08CCED0008D4A8 /* Operation.swift in Sources */,
 				35E833F92C08CE780008D4A8 /* DependencyVersionsUseCase.swift in Sources */,
-				35E833EB2C07B4790008D4A8 /* ManifestFile.swift in Sources */,
+				3534B5652C0BBECB00BFDFA6 /* PackageConfigs.swift in Sources */,
+				3534B55D2C0BBE7400BFDFA6 /* PackageConfig.swift in Sources */,
+				3534B5632C0BBEB500BFDFA6 /* ManifestsMeta.swift in Sources */,
+				3534B5612C0BBEA100BFDFA6 /* RemoteDependency.swift in Sources */,
+				3534B5792C0BEA1F00BFDFA6 /* DependencyLine.swift in Sources */,
+				3534B58F2C0CD32600BFDFA6 /* RemoteTagLoader.swift in Sources */,
 				35E833FF2C08DE280008D4A8 /* CommonRegex.swift in Sources */,
+				3534B5502C0B7D7000BFDFA6 /* DependencyTag.swift in Sources */,
+				3534B5812C0BF1C200BFDFA6 /* DependencyLineConfig.swift in Sources */,
+				3534B5672C0BC02000BFDFA6 /* ManifestUtility.swift in Sources */,
+				3534B5872C0BF20E00BFDFA6 /* LocalDependencyLineConfig.swift in Sources */,
 				35E833F32C08CA550008D4A8 /* SwitchDependencyUseCase.swift in Sources */,
+				3534B54C2C0A114A00BFDFA6 /* ExecutionError.swift in Sources */,
+				3534B58D2C0CD2B800BFDFA6 /* ManifestLoader.swift in Sources */,
 				3533424E2C06353300ABCBE1 /* main.swift in Sources */,
-				35E833ED2C07B4A20008D4A8 /* RemoteDependencyLine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3534B56D2C0BE91100BFDFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3534B5852C0BF20300BFDFA6 /* RemoteDependencyLineConfig.swift in Sources */,
+				3534B57B2C0BEA3900BFDFA6 /* DependencyTag.swift in Sources */,
+				3534B5822C0BF1DF00BFDFA6 /* DependencyLineConfig.swift in Sources */,
+				3534B57D2C0BEF1A00BFDFA6 /* String+Regex.swift in Sources */,
+				3534B5882C0BF22800BFDFA6 /* LocalDependencyLineConfig.swift in Sources */,
+				3534B57C2C0BEA4200BFDFA6 /* ExecutionError.swift in Sources */,
+				3534B5742C0BE91100BFDFA6 /* Tests.swift in Sources */,
+				3534B57E2C0BEF2700BFDFA6 /* CommonRegex.swift in Sources */,
+				3534B57A2C0BEA2D00BFDFA6 /* DependencyLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +482,34 @@
 			};
 			name = Release;
 		};
+		3534B5762C0BE91100BFDFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pawelklapuch.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3534B5772C0BE91100BFDFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pawelklapuch.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -320,6 +527,15 @@
 			buildConfigurations = (
 				353342522C06353300ABCBE1 /* Debug */,
 				353342532C06353300ABCBE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3534B5752C0BE91100BFDFA6 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3534B5762C0BE91100BFDFA6 /* Debug */,
+				3534B5772C0BE91100BFDFA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
